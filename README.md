@@ -1,2 +1,2 @@
 # Hackflix
-Movies gallery with rating filter using API
+Movies gallery built with React, React Bootstrap and connected to The Movie Database API
