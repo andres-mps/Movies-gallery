@@ -1,0 +1,8 @@
+.card {
+  will-change: filter;
+  transition: filter 600ms;
+  margin-bottom: 1.5rem;
+}
+.card:hover {
+  filter: drop-shadow(0 0 2em #918d8d);
+}
