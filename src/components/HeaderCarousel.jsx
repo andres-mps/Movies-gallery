@@ -12,8 +12,8 @@ function HeaderCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>¡Tus películas favotirtas!</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>¡Tus películas favoritas!</h3>
+            <p>Encontra todas las películas en un solo lugar</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={10000}>
@@ -23,8 +23,8 @@ function HeaderCarousel() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>¡Tus películas favotirtas!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>¡Tus películas favoritas!</h3>
+            <p>Encontra todas las películas en un solo lugar</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={10000}>
@@ -33,9 +33,10 @@ function HeaderCarousel() {
             src="https://image.tmdb.org/t/p/original//hO7KbdvGOtDdeg0W4Y5nKEHeDDh.jpg"
             alt="Third slide"
           />
+
           <Carousel.Caption>
-            <h3>¡Tus películas favotirtas!</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3>¡Tus películas favoritas!</h3>
+            <p>Encontra todas las películas en un solo lugar</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
