@@ -38,14 +38,14 @@ function MovieModal({ movie, show, handleClose }) {
                 <h3>{movie.title}</h3>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-4 px-0">
               <div className="d-flex flex-column align-items-center gap-2">
                 <ReactStars {...ratingStarsConfig} />{" "}
                 <small className="votesCount">({movie.vote_count} votes)</small>
               </div>
             </div>
           </div>
-          <div>
+          <div className="mt-2">
             {" "}
             <p>{movie.overview}</p>
           </div>
