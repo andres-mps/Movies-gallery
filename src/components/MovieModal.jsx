@@ -35,11 +35,11 @@ function MovieModal({ movie, show, handleClose }) {
                   </Badge>
                 )}
                 <span>{new Date(movie.release_date).getFullYear()}</span>
-                <h3>{movie.title}</h3>
+                <h3 className="mt-1">{movie.title}</h3>
               </div>
             </div>
             <div className="col-4 px-0">
-              <div className="d-flex flex-column align-items-center gap-2">
+              <div className="d-flex flex-column align-items-center gap-1">
                 <ReactStars {...ratingStarsConfig} />{" "}
                 <small className="votesCount">({movie.vote_count} votes)</small>
               </div>
