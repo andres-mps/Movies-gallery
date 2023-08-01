@@ -21,9 +21,9 @@ function NavbarHackflix() {
             <NavLink className="nav-link" to="/search">
               Search
             </NavLink>
-            <NavLink className="nav-link" to="/contact">
+            {/* <NavLink className="nav-link" to="/contact">
               Contact
-            </NavLink>
+            </NavLink> */}
             <NavLink className="nav-link" to="/about-this-project">
               About this project
             </NavLink>

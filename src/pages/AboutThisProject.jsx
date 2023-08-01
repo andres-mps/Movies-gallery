@@ -42,7 +42,7 @@ function AboutThisProject() {
         </div>
         <div className="technology-applied">
           <img src={bootstrapLogo} alt="bootstrap-logo" />
-          <p>React Bootstrap</p>
+          <p>Bootstrap</p>
         </div>
       </div>
     </div>
