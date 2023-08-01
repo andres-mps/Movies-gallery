@@ -1,0 +1,37 @@
+.skills {
+  color: aquamarine;
+  font-size: bold;
+}
+
+.technologies-icons {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 0px 20px;
+  margin-top: 2rem;
+}
+.technology-applied {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.technology-applied img {
+  height: 100px;
+  margin-bottom: 0.5rem;
+}
+
+.technology-applied p {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+}
+
+.technology-applied {
+  will-change: filter;
+  transition: filter 300ms;
+  margin-bottom: 1.5rem;
+}
+.technology-applied:hover {
+  filter: drop-shadow(0 0 1em #918d8d);
+}

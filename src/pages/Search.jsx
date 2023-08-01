@@ -2,9 +2,8 @@ import HeaderCarousel from "../components/HeaderCarousel";
 import SearchList from "../components/SearchList";
 import { useState } from "react";
 import Form from "react-bootstrap/Form";
-import "../components/Buscar.css";
 
-function Buscar() {
+function Search() {
   const [searchingTitle, setSearchingTitle] = useState("");
   console.log(searchingTitle);
   return (
@@ -15,7 +14,7 @@ function Buscar() {
           <Form.Control
             variant="dark"
             type="text"
-            placeholder="Buscar película por título..."
+            placeholder="Search by title..."
             onChange={(event) => setSearchingTitle(event.target.value)}
             value={searchingTitle}
           />
@@ -26,4 +25,4 @@ function Buscar() {
   );
 }
 
-export default Buscar;
+export default Search;

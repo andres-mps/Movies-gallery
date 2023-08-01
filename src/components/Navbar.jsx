@@ -18,13 +18,13 @@ function NavbarHackflix() {
             <NavLink className="nav-link" to="/">
               Home
             </NavLink>
-            <NavLink className="nav-link" to="/buscar">
-              Buscar
+            <NavLink className="nav-link" to="/search">
+              Search
             </NavLink>
-            <NavLink className="nav-link" to="/contacto">
-              Contacto
+            <NavLink className="nav-link" to="/contact">
+              Contact
             </NavLink>
-            <NavLink className="nav-link" to="/sobre-nosotros">
+            <NavLink className="nav-link" to="/about-this-project">
               About this project
             </NavLink>
           </Nav>

@@ -12,8 +12,8 @@ function HeaderCarousel() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>¡Tus películas favoritas!</h3>
-            <p>Encontra todas las películas en un solo lugar</p>
+            <h3>¡Your favourite movies!</h3>
+            <p>Find them all in one place</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={10000}>
@@ -23,8 +23,8 @@ function HeaderCarousel() {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h3>¡Tus películas favoritas!</h3>
-            <p>Encontra todas las películas en un solo lugar</p>
+            <h3>¡Your favourite movies!</h3>
+            <p>Find them all in one place</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={10000}>
@@ -35,8 +35,8 @@ function HeaderCarousel() {
           />
 
           <Carousel.Caption>
-            <h3>¡Tus películas favoritas!</h3>
-            <p>Encontra todas las películas en un solo lugar</p>
+            <h3>¡Your favourite movies!</h3>
+            <p>Find them all in one place</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

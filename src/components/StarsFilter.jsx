@@ -16,7 +16,7 @@ function StarsFilter({ setFilterValue }) {
   return (
     <>
       <div className="container d-flex flex-wrap justify-content-center align-items-end sticky-top my-3">
-        <span className="starsSpan d-none d-sm-block">Filtrar por rating: </span>
+        <span className="starsSpan d-none d-sm-block">Filter by rating: </span>
         <ReactStars className="starsSpan" {...starsFilter} />
       </div>
     </>
