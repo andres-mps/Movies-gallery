@@ -2,7 +2,7 @@ import ReactStars from "react-rating-stars-component";
 
 function StarsFilter({ setFilterValue }) {
   const starsFilter = {
-    size: 35,
+    size: 30,
     count: 5,
     isHalf: true,
     value: 0,

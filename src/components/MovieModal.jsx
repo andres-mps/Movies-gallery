@@ -2,6 +2,7 @@ import { useState } from "react";
 import Badge from "react-bootstrap/Badge";
 import Modal from "react-bootstrap/Modal";
 import ReactStars from "react-rating-stars-component";
+import { motion } from "framer-motion";
 
 import "./MovieModal.css";
 

@@ -57,7 +57,7 @@ function MoviesList({ filterValue }) {
       hasMore={true}
       loader={<h4>Loading...</h4>}
     >
-      <div className="container-fuid mx-3">
+      <div className="container-fuid mx-3 ">
         <div className="row">
           {moviesData.length === 0
             ? "Loading..."
